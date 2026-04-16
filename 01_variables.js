@@ -145,17 +145,119 @@ let vendedor = {
 
 // console.log(vendedor.vender());
 
-console.log(vendedor.obtenerNombreCompleto());
+// console.log(vendedor.obtenerNombreCompleto());
+
+// vendedor.apellido = "Sanchez"
+// console.log(vendedor)
+
+// vendedor.edad = 56
+// console.log(vendedor)
+
+// vendedor = "Carlos Sanchez"
+// console.log(vendedor)
+
+// vendedor = 123
+// console.log(vendedor)
+
+
+// Copiar por valor y por referencia primitivos vs no primitivos
+
+// let a = 10
+// let b = a
+
+// console.log("a: ", a, "b: ", b)
+
+// a = 20
+
+// console.log("a: ", a, "b: ", b)
+
+// console.log("**********************************")
+
+// let obj = {nombre: "Federico"}
+// let obj2 = obj
+
+// console.log("obj: ", obj, "obj2: ", obj2)
+
+// obj.nombre = "Sol"
+
+// console.log("obj: ", obj, "obj2: ", obj2)
+
+// console.log("**********************************")
+
+// console.log(`obj: ${obj}`)
+// console.log(`obj: ${JSON.stringify(obj)}`)
+
+// console.log("**********************************")
+
+
+// let objLet = {nombre: "Carla"}
+
+// console.log(objLet)
+
+// objLet = 123
+
+// console.log(objLet)
+
+// const objConst = {nombre: "Carla"}
+
+// console.log("objconst: ", objConst)
+
+// objConst = 123
+
+// console.log(objConst)
+
+// objConst = 123
+
+// objConst = {nombre: "Susana"}
+
+// objConst.nombre = "Susana"
+
+// console.log("objconst: ", objConst)
+
+// objConst.edad = 33
+
+// console.log("objconst: ", objConst)
+
+// delete objConst.nombre
+
+// console.log("objconst: ", objConst)
 
 
 
+// Mas cositas sobre objetos
+
+let obj = {
+    prop1 : "Propiedad 1",
+    prop2 : "Propiedad 2"
+}
+
+console.log(typeof obj)
+console.log(obj)
+
+console.log("**********************************")
 
 
+let stringi_obj = JSON.stringify(obj)
+
+console.log(typeof stringi_obj)
+console.log(stringi_obj)
+
+console.log("**********************************")
+
+let parse_obj = JSON.parse(stringi_obj)
+
+console.log(typeof parse_obj)
+console.log(parse_obj)
+
+console.log("**********************************")
 
 
+let numeros = {
+    numero1: "1",
+    "numero dos": 2
+}
 
-
-
+console.log(numeros)
 
 
 
