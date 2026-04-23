@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica JS</title>
+</head>
+<body>
+    <h1>
+        Que puedo hacer con JavaScript
+    </h1>
+    <h2>
+        Eventos
+    </h2>
+    <p id="demo">Este texto lo voy a cambiar con JS</p>
+    <button onclick="cambiarDemo()">Clickeame</button>
+    <br><br><br>
+    
+    <p id="seleccionable"></p>
+    <button onclick="mostrar()">clickeame a mi tambien</button>
+    <br><br><br>
+
+
+    <label for="select" id="label">Cambio de color</label>
+    <select id="select" onchange="cambiarColor()">
+        <option value="rojo">Rojo</option>
+        <option value="azul">Azul</option>
+        <option value="verde">Verde</option>
+    </select>
+    <br>
+    <button id="btn-select">Color original</button>
+    <br><br><br>
+
+    <h3>Lista para el asado</h3>
+    <button id="btn-lista" onclick="mostrarLista()">Mostrar lista</button>
+    <ul id="lista"></ul>
+
+    <h3>Lista dinamica</h3>
+
+    <input type="text" id="itemInput">
+    
+    <button onclick="agregarItem()">Agregar</button>
+
+    <div id="contenedorLista"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./scripts/05_scripts.js"></script>
+</body>
+</html>
