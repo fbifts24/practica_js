@@ -1,7 +1,7 @@
 // MANEJO DE ERRORES
 
 // console.log(undefinedVariable)
-
+/* 
 try {
     console.log('Intento ejecutar el codigo')
 
@@ -34,3 +34,24 @@ try {
 }
 
 console.log('***************************************')
+
+ */
+
+
+
+console.log("Vengo ejecutando mi codigo")
+
+
+
+try {
+    console.log("Cuarto intento de ejecutar codigo")
+    console.log(variableNoDefinida)
+    console.log('Sale con fritas')
+} catch (error) {
+    console.log('Algo salio mal', error)
+} finally {
+    console.log("El bloque try catch terminó")
+}
+
+
+console.log("Sigo ejecutando mi codigo")
